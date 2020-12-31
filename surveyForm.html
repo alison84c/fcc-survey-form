@@ -1,0 +1,83 @@
+<DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="surveyForm.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    </head>
+  <body>
+  
+    <h1 id=" title" class="text-center"> Free Code Camp - Survey Form </h1>
+    <p id="description" class="description text-center">Thank you for taking the time to help us for understand habit read a book</p>
+    
+    <form  id="survey-form">
+
+      <div class="input-headings">
+        <lable for="name" id="name-label">Nome: </lable>
+        <input type="text" id="name" name="name" placeholder="Enter your name" class="form-input"required><br><br>
+        <lable for="email" id="email-label"> Email: </lable>
+        <input type="email" id="email" name="email"  placeholder="Enter your email" class="form-input" required><br><br>
+        <lable For="number" id="number-label"> Idade : </lable>
+        <input type="number" id="number" name="number" placeholder="18" min="18" max="100"  class="form-input" required><br><br> 
+        <hr>
+        <label for="dropdown" id="model"> how do you prefer to read a book? </label>
+         <select id="dropdown" class="form-input">
+           <option value="phisycal_book"> Physical books</option>
+           <option value="digital_book"> Digital book's</option>
+           <option value="both_manner"> Both</option>
+         </select>
+         <br>
+         <br>
+
+         <label for="model_color" id="model_color"><b>How much time you spend read a book:</b></label><br>
+
+          <input id="model_color"  type="radio" id="black" name="color" value="black">
+          <label for="model_color">less one hours</label><br>
+
+           <input id="model_color"  type="radio" id="white" name="color" value="white">
+          <label for="model_color"> more than one hour</label><br>
+
+           <input id="model_color"  type="radio" id="red" name="color" value="red">
+          <label for="model_color"> i read much little</label><br>
+
+           <input id="model_color"  type="radio" id="blue" name="color" value="blue">
+          <label for="model_color"> i effort every day to get read more</label><br><br>
+
+          <label for="dropdown"><b>the manner how you read is ...</b></label><br><br>
+          <select id="dropdown" name= "manner_read" class="form-input">
+           <option value="appropiete"> appropiete</option>
+           <option value="another_than_other"> sometimes i prefer one more than another</option>
+           <option value="both_manner"> I suit my moment</option>
+         </select><br><br>
+
+         <label for="dropdown"><b>Books for you, are very expensive?</b></label><br><br>
+         <select id="dropdown" name= "manner_read" class="form-input">
+           <option value="yes"> Yes</option>
+           <option value="no"> Not </option>
+         </select><br><br>
+
+         <label for="dropdown"><b>How times do you buy books in one month</b></label><br><br>
+
+          <select id="dropdown" name= "manner_read" class="form-input">
+           <option value="just_one"> just one</option>
+           <option value="between_one_five"> between one - five </option>
+           <option value="more_than_five"> more than five </option>
+           <option value="can_not"> i can't remenber the last time rsrs </option>
+           <option value="no"> i try figth agaist my addiction to buy books </option>
+         </select><br><br>
+
+          <label><b>Talk about how do you feel read a book: </b> </label>
+          <br><br>
+    
+      
+      <textarea id="textarea" name="instructions" rows="5" cols="40"></textarea><br><br>
+
+
+      <input  id="submit" type="submit" value="Place order" class="submit-button"> 
+
+    </div>
+
+    </form>
+    
+  </body>
+  </html>
